@@ -122,7 +122,7 @@ void setup_fm()
                   PROT_READ|PROT_WRITE,
                   MAP_SHARED,
                   mem_fd,
-                  0x20000000  //base
+                  0x3F000000  //base
               );
 
     if ((int)allof7e==-1) exit(-1);
